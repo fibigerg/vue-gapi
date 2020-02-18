@@ -13,6 +13,7 @@
     "src"
   ],
   "scripts": {
+    "install": "npm run build",
     "clean": "rimraf dist",
     "build": "node build/build.js",
     "build:dll": "webpack --progress --config build/webpack.config.dll.js",
